@@ -6,6 +6,6 @@ resource "aws_instance" "docker_server" {
   user_data = file("docker-compose.yml")
 
   tags = {
-    Name = "docker_svr-terraform"
+    Name = "docker-svr-terraform"
   }
 }

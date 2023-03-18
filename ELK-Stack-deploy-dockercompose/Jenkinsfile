@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/NamunaGIT/cornerstone_project_Devops/tree/main/ELK%20Stack_deploy_using%20dockercompose'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/epalencia9/ELK-stack-2-docker/tree/main/ELK-Stack-deploy-dockercompose'
             }
         }
         stage('Terraform init') {
